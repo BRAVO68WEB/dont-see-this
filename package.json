@@ -4,8 +4,8 @@
   "description": "Now that you came in to see this, it on you now.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "try": "node index.js"
   },
-  "author": "",
+  "author": "BRAVO68WEB",
   "license": "ISC"
 }
