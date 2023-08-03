@@ -1,0 +1,11 @@
+{
+  "name": "dont-see-this",
+  "version": "1.0.0",
+  "description": "Now that you came in to see this, it on you now.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
