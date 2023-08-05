@@ -59,7 +59,14 @@ const printsomething_hub = async () => {
 }
 
 const printsomething = async () => {
-    const whatiwanttoprint = await printsomething_hub();
+    let whatiwanttoprint = await Promise.all([
+        printsomething_hub(),
+        printsomething_hub(),
+        printsomething_hub(),
+    ]);
+
+    whatiwanttoprint = whatiwanttoprint.join('');
+    
     const tokens = [];
     for (let i = 0; i < 32; i++) {
         tokens.push(whatiwanttoprint.charAt(Math.floor(Math.random() * whatiwanttoprint.length)));
