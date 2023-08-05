@@ -24,6 +24,6 @@ Lets see how not to write to code.
 
 ```bash
 $ node index.js 
->Time taken: 6278ms
->String to print: pfbzoayl-mpid-iino-hd7f-zekqqupe5kqn
+>Time taken: 19996ms
+>String to print: 6akpl5uq-lo20-l4ol-d5ou-i5wdfx85chgb
 ```
